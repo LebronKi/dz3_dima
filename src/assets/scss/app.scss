@@ -1,0 +1,35 @@
+@import './main/reset.scss';
+@import './main/vars.scss';
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');   
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+  
+    background: #e5e5e5;
+}
+
+h2{
+    margin: 0 0 40px 0;
+    span{
+        font-weight: 800;
+        font-size: 14px;
+        align-items: center;
+        color: #7FAD39;
+        
+    }
+    p{  
+        margin: 20px 0 0 0;
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+@import './components/categories.scss';
+@import './components/slider.scss';
+@import './components/products.scss';

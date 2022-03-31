@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,62 +11,146 @@
     <link rel="stylesheet" href="./assets/css/app.css">
   </head>
   <body>
-    <header class="header">
-      <div class="header__container">
-        <div class="image"><img src="./assets/imgs/letter.png", alt=""></div>
-        <p class="text"> Hello@colorlib.com</p>
-        <p class="title"> Free Shipping for all order of $99</p>
-        <ul class="list"> 
-          <li> <a href="#"><img src="./assets/imgs/facebook.png" alt=""></a></li>
-          <li>
-             <a href="#"><img src="./assets/imgs/facebook.png" alt=""></li>
-          <li> <a href="#"><img src="./assets/imgs/facebook.png" alt=""></a></li>
-          <li> <a href="#"><img src="./assets/imgs/facebook.png" alt=""></a></li>
-        </ul>
+    <slider>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+                <div class="slider-item"><img class="slider-item__img" src="./assets/imgs/lemonade.jpg" alt="item">
+                  <div class="slider-item__content"><span class="slider-item__sale">6% OFF</span>
+                    <div class="slider-item__title">Buy More &amp; Save More</div>
+                    <div class="slider-item__text">Fresh &amp; Vegetables</div>
+                  </div>
+                  <button class="slider-item__btn"> shop now</button>
+                </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="slider-item"><img class="slider-item__img" src="./assets/imgs/funduk.jpg" alt="item">
+                  <div class="slider-item__content"><span class="slider-item__sale">6% OFF</span>
+                    <div class="slider-item__title">Buy More &amp; Save More</div>
+                    <div class="slider-item__text">Fresh &amp; Vegetables</div>
+                  </div>
+                  <button class="slider-item__btn"> shop now</button>
+                </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="slider-item"><img class="slider-item__img" src="./assets/imgs/vege.jpg" alt="item">
+                  <div class="slider-item__content"><span class="slider-item__sale">6% OFF</span>
+                    <div class="slider-item__title">Buy More &amp; Save More</div>
+                    <div class="slider-item__text">Fresh &amp; Vegetables</div>
+                  </div>
+                  <button class="slider-item__btn"> shop now</button>
+                </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="slider-item"><img class="slider-item__img" src="./assets/imgs/eggs.jpg" alt="item">
+                  <div class="slider-item__content"><span class="slider-item__sale">6% OFF</span>
+                    <div class="slider-item__title">Buy More &amp; Save More</div>
+                    <div class="slider-item__text">Fresh &amp; Vegetables</div>
+                  </div>
+                  <button class="slider-item__btn"> shop now</button>
+                </div>
+          </div>
+        </div>
       </div>
-      <div class="slider">
-        <div class="slider-item"><img src="./assets/imgs/vege.jpg" alt="">
-          <div class="content"><span class="off">10 off </span><span class="buy">buy more&save more</span><span class="fresh">fresh fruits </span></div>
-          <button class="btn">shop now</button>
-        </div>
-        <div class="slider-item"><img src="./assets/imgs/vege.jpg" alt="">
-          <div class="content"><span class="off">10 off </span><span class="buy">buy more&save more</span><span class="fresh">fresh fruits </span></div>
-          <button class="btn">shop now </button>
-        </div>
-        <div class="slider-item"><img src="./assets/imgs/vege.jpg" alt="">
-          <div class="content"><span class="off">10 off </span><span class="buy">buy more&save more</span><span class="fresh">fresh fruits </span></div>
-          <button class="btn">shop now </button>
-        </div>
-        <div class="slider-item"><img src="./assets/imgs/vege.jpg" alt="">
-          <div class="content"><span class="off">10 off </span><span class="buy">buy more&save more</span><span class="fresh">fresh fruits </span></div>
-          <button class="btn">shop now </button>
-        </div>
-        <div class="slider-item"><img src="./assets/imgs/vege.jpg" alt="">
-          <div class="content"><span class="off">10 off </span><span class="buy">buy more&save more</span><span class="fresh">fresh fruits </span></div>
-          <button class="btn">shop now                     </button>
-        </div>
-      </div>
-    </header>
+    </slider>
     <div class="container">
-      <div class="shop">
-        <div class="text1"> Shop By</div>
-        <div class="categories">Categories</div>
-        <div class="image__row"> <a class="item" href="">
-            <div class="apple"> <img src="./assets/imgs/apple.png" alt=""></div>
-            <p class="apple1">Vegetables & Fruits</p></a><a class="item" href="">
-            <div class="apple"><img src="./assets/imgs/shopping.png", alt=""></div>
-            <p class="apple1">Grocery & Staples</p></a><a class="item" href="">
-            <div class="apple"><img src="./assets/imgs/milk.png", alt=""></div>
-            <p class="apple1">Dairy & Eggs</p></a><a class="item" href="">
-            <div class="apple"><img src="./assets/imgs/milkk.png", alt=""></div>
-            <p class="apple1">Beverages</p></a><a class="item" href="">
-            <div class="apple"><img src="./assets/imgs/burger.png", alt=""></div>
-            <p class="apple1">Snacks</p></a><a class="item" href="">
-            <div class="apple"><img src="./assets/imgs/dom.png", alt=""></div>
-            <p class="apple1">Home Care</p></a></div>
-      </div>
+      <h2 class="subtitle"> <span>Shop bye </span>
+        <p class="categ">Categories</p>
+      </h2>
+      <section class="categories"><a class="category-block" href="">  <img class="category-block__img" src="./assets/imgs/apple.png" alt="logo">
+                <p class="category-block__text">Vegetables &amp; Fruits</p></a><a class="category-block" href="">  <img class="category-block__img" src="./assets/imgs/shopping.png" alt="logo">
+                <p class="category-block__text">Grocery &amp; Staples</p></a><a class="category-block" href="">  <img class="category-block__img" src="./assets/imgs/milk.png" alt="logo">
+                <p class="category-block__text">Dairy &amp; Eggs</p></a><a class="category-block" href="">  <img class="category-block__img" src="./assets/imgs/milkk.png" alt="logo">
+                <p class="category-block__text">Beverages</p></a><a class="category-block" href="">  <img class="category-block__img" src="./assets/imgs/burger.png" alt="logo">
+                <p class="category-block__text">Snacks</p></a><a class="category-block" href="">  <img class="category-block__img" src="./assets/imgs/dom.png" alt="logo">
+                <p class="category-block__text">Home Care</p></a>
+      </section>
+      <h3>For You</h3>
+      <div class="top">Top Featured Products</div>
+      <section class="products">
+              <div class="products-item">  
+                <div class="products-item__top">   
+                  <div class="products-item__pacent">15%Off</div><img class="top__img" src="./assets/imgs/like.png" alt="like">
+                </div>
+                <div class="middle">    <img src="./assets/imgs/persik.jpg" alt=""></div>
+                <div class="products-item__text">   
+                  <p class="products-item__text-one">Available(in stock)</p>
+                  <p class="products-item__text-sec">Fresh organic apricot</p>
+                </div>
+                <div class="products-item__price">$12<span>$15</span></div>
+                <div class="products-item__btm"> 
+                  <div class="products-item__left"><img class="products-item__minus" src="./assets/imgs/minus.png" alt="minus">
+                    <p class="products-item_one">1 </p><img class="products-item__plus" src="./assets/imgs/plus.png" alt="plus">
+                  </div><img class="products-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
+                </div>
+              </div>
+              <div class="products-item">  
+                <div class="products-item__top">   
+                  <div class="products-item__pacent">15%Off</div><img class="top__img" src="./assets/imgs/like.png" alt="like">
+                </div>
+                <div class="middle">    <img src="./assets/imgs/cucumber.jpg" alt=""></div>
+                <div class="products-item__text">   
+                  <p class="products-item__text-one">Available(in stock)</p>
+                  <p class="products-item__text-sec">Cucumber</p>
+                </div>
+                <div class="products-item__price">$12<span>$15</span></div>
+                <div class="products-item__btm"> 
+                  <div class="products-item__left"><img class="products-item__minus" src="./assets/imgs/minus.png" alt="minus">
+                    <p class="products-item_one">1 </p><img class="products-item__plus" src="./assets/imgs/plus.png" alt="plus">
+                  </div><img class="products-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
+                </div>
+              </div>
+              <div class="products-item">  
+                <div class="products-item__top">   
+                  <div class="products-item__pacent">15%Off</div><img class="top__img" src="./assets/imgs/like.png" alt="like">
+                </div>
+                <div class="middle">    <img src="./assets/imgs/nuts.jpg" alt=""></div>
+                <div class="products-item__text">   
+                  <p class="products-item__text-one">Available(in stock)</p>
+                  <p class="products-item__text-sec">Hazelnuts filbert nut</p>
+                </div>
+                <div class="products-item__price">$12<span>$15</span></div>
+                <div class="products-item__btm"> 
+                  <div class="products-item__left"><img class="products-item__minus" src="./assets/imgs/minus.png" alt="minus">
+                    <p class="products-item_one">1 </p><img class="products-item__plus" src="./assets/imgs/plus.png" alt="plus">
+                  </div><img class="products-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
+                </div>
+              </div>
+              <div class="products-item">  
+                <div class="products-item__top">   
+                  <div class="products-item__pacent">15%Off</div><img class="top__img" src="./assets/imgs/like.png" alt="like">
+                </div>
+                <div class="middle">    <img src="./assets/imgs/broccoli.jpg" alt=""></div>
+                <div class="products-item__text">   
+                  <p class="products-item__text-one">Available(in stock)</p>
+                  <p class="products-item__text-sec">Raw Broccoli</p>
+                </div>
+                <div class="products-item__price">$12<span>$15</span></div>
+                <div class="products-item__btm"> 
+                  <div class="products-item__left"><img class="products-item__minus" src="./assets/imgs/minus.png" alt="minus">
+                    <p class="products-item_one">1 </p><img class="products-item__plus" src="./assets/imgs/plus.png" alt="plus">
+                  </div><img class="products-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
+                </div>
+              </div>
+              <div class="products-item">  
+                <div class="products-item__top">   
+                  <div class="products-item__pacent">15%Off</div><img class="top__img" src="./assets/imgs/like.png" alt="like">
+                </div>
+                <div class="middle">    <img src="./assets/imgs/pear.jpg" alt=""></div>
+                <div class="products-item__text">   
+                  <p class="products-item__text-one">Available(in stock)</p>
+                  <p class="products-item__text-sec">Organic quince</p>
+                </div>
+                <div class="products-item__price">$12<span>$15</span></div>
+                <div class="products-item__btm"> 
+                  <div class="products-item__left"><img class="products-item__minus" src="./assets/imgs/minus.png" alt="minus">
+                    <p class="products-item_one">1 </p><img class="products-item__plus" src="./assets/imgs/plus.png" alt="plus">
+                  </div><img class="products-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
+                </div>
+              </div>
+      </section>
     </div>
     <script src="./assets/js/vendors.min.js"></script>
-    <script src="./assets/js/app.js"> </script>
+    <script src="./assets/js/app.js">    </script>
   </body>
 </html>
