@@ -1,31 +1,27 @@
 @import './main/reset.scss';
 @import './main/vars.scss';
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');   
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&family=Rubik+Wet+Paint&family=Source+Sans+Pro:wght@400;600;700;900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Martel+Sans:wght@900&family=Rubik+Wet+Paint&family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-html{
-    background: #bdb7b7;
-}
 .container{
+    font-family: Source Sans Pro;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 0 15px;
-  
+    padding: 0 15px 100px;
     background: #e5e5e5;
 }
-
 h2{
-    margin: 0 0 40px 0;
+   padding: 60px 0 40px 0;
     span{
         font-weight: 800;
         font-size: 14px;
         align-items: center;
         color: #7FAD39;
-        
     }
     p{  
         margin: 20px 0 0 0;
@@ -33,6 +29,13 @@ h2{
         font-weight: 700;
     }
 }
-@import './components/categories.scss';
+@import './components/header.scss';
+@import './components/select.scss';
+@import './components/menu.scss';
 @import './components/slider.scss';
+@import './components/categories.scss';
 @import './components/products.scss';
+@import './components/values.scss';
+@import './components/top.scss';
+@import './components/added.scss';
+@import './components/footer.scss';

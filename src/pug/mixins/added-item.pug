@@ -1,0 +1,18 @@
+mixin added-item(img, text)
+    .added-item
+        .added-item__top 
+            .added-item__pacent  15%Off
+            img(src="./assets/imgs/like.png", alt="like").added-item__img
+        .added-item__middle
+            img(src=img, alt="")
+        .added-item__text
+            p.added-item__text-one Available(in stock)
+            p.added-item__text-sec=text
+        .added-item__price $12    
+                span $15
+        .added-item__btn
+            .added-item__left      
+                img(src="./assets/imgs/minus.png", alt="minus").added-item__minus
+                p.added-item_one 1
+                img(src="./assets/imgs/plus.png", alt="plus").added-item__plus 
+            img(src="./assets/imgs/korzina.png", alt="korzin").products-item__korzina

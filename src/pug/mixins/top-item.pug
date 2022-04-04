@@ -1,0 +1,20 @@
+mixin vegefruit-item(img, textvege)
+    .vegefruit-item 
+        .vegefruit-item__top
+          .vegefruit-item__pacent  15%Off
+          img(src="./assets/imgs/like.png", alt="like").vegefruit-item__img
+        .vegefruit-item__middle
+            img(src=img, alt="")
+        .vegefruit-item__text  
+            p.vegefruit-item__text-one Available(in stock)
+            p.vegefruit-item__text-sec=textvege
+        .vegefruit-item__price $12
+            span $15
+        .vegefruit-item__btn
+            .vegefruit-item__left
+                img(src="./assets/imgs/minus.png", alt="minus").vegefruit-item__minus
+                p.vegefruit-item_one 1
+                img(src="./assets/imgs/plus.png", alt="plus").vegefruit-item__plus
+            img(src="./assets/imgs/korzina.png", alt="korzin").vegefruit-item__korzina            
+
+        

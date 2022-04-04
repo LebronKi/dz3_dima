@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><link rel="preconnect" href="https://fonts.googleapis.com">
+  <head><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Martel+Sans:wght@900&family=Rubik+Wet+Paint&family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&family=Rubik+Wet+Paint&family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
@@ -11,23 +13,67 @@
     <link rel="stylesheet" href="./assets/css/app.css">
   </head>
   <body>
-    <slider>
+    <header class="header">
+      <div class="header__container">
+        <div class="heeader__row"><img class="header__logo" src="./assets/imgs/log.png" alt="">
+          <p class="header__mail">Hello@colorlib.com</p>
+          <p class="header__price">Free Shipping for all order of $99</p>
+          <ul class="header__list">    
+            <li> <a href="#"><img src="./assets/imgs/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="./assets/imgs/call.png" alt=""></a></li>
+            <li> <a href="#"><img src="./assets/imgs/linkin.png" alt=""></a></li>
+            <li> <a href="#"><img src="./assets/imgs/twitter.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="menu">
+      <div class="menu__container">
+        <div class="menu__row">
+          <div class="menu__left"><img class="menu__logo" src="./assets/imgs/logo.png"><img class="menu__map" src="./assets/imgs/guru.png" alt=""><img class="memu__search" src="./assets/imgs/search.png" alt="">
+            <input class="menu__input" type="text" placeholder="Search for products...">
+          </div>
+          <div class="menu__right"><img class="menu__tele" src="./assets/imgs/tele.png" alt="">
+            <p class="menu__number">1800-000-000</p>
+            <div class="menu__line"></div><img class="menu__heart" src="./assets/imgs/heart.png" alt="">
+            <div class="menu__line"></div><img class="menu__man" src="./assets/imgs/man.png" alt="">
+            <p class="menu__name">John Doe</p><img class="menu__mark" src="./assets/imgs/mark.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="select">
+      <div class="select__container">
+        <div class="select__row">
+          <div class="select__left"><img class="select__image" src="./assets/imgs/select.png" alt="">
+            <ul class="select__list">    
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">Product </a></li>
+              <li> <a href="#">Stores</a></li>
+              <li> <a href="#">CONTACT</a></li>
+            </ul>
+          </div>
+          <button class="select__btn">CART 2</button>
+        </div>
+      </div>
+    </section>
+    <div class="slider">
       <div class="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
                 <div class="slider-item"><img class="slider-item__img" src="./assets/imgs/lemonade.jpg" alt="item">
                   <div class="slider-item__content"><span class="slider-item__sale">6% OFF</span>
                     <div class="slider-item__title">Buy More &amp; Save More</div>
-                    <div class="slider-item__text">Fresh &amp; Vegetables</div>
+                    <div class="slider-item__text">Beverage</div>
                   </div>
                   <button class="slider-item__btn"> Shop Now</button>
                 </div>
           </div>
           <div class="swiper-slide">
                 <div class="slider-item"><img class="slider-item__img" src="./assets/imgs/funduk.jpg" alt="item">
-                  <div class="slider-item__content"><span class="slider-item__sale">6% OFF</span>
+                  <div class="slider-item__content"><span class="slider-item__sale">10% OFF</span>
                     <div class="slider-item__title">Buy More &amp; Save More</div>
-                    <div class="slider-item__text">Fresh &amp; Vegetables</div>
+                    <div class="slider-item__text">Nuts &amp; Snacks</div>
                   </div>
                   <button class="slider-item__btn"> Shop Now</button>
                 </div>
@@ -43,28 +89,28 @@
           </div>
           <div class="swiper-slide">
                 <div class="slider-item"><img class="slider-item__img" src="./assets/imgs/fruits.jpg" alt="item">
-                  <div class="slider-item__content"><span class="slider-item__sale">6% OFF</span>
+                  <div class="slider-item__content"><span class="slider-item__sale">25% OFF</span>
                     <div class="slider-item__title">Buy More &amp; Save More</div>
-                    <div class="slider-item__text">Fresh &amp; Vegetables</div>
+                    <div class="slider-item__text">Fresh Fruits</div>
                   </div>
                   <button class="slider-item__btn"> Shop Now</button>
                 </div>
           </div>
           <div class="swiper-slide">
                 <div class="slider-item"><img class="slider-item__img" src="./assets/imgs/eggs.jpg" alt="item">
-                  <div class="slider-item__content"><span class="slider-item__sale">6% OFF</span>
+                  <div class="slider-item__content"><span class="slider-item__sale">15% OFF</span>
                     <div class="slider-item__title">Buy More &amp; Save More</div>
-                    <div class="slider-item__text">Fresh &amp; Vegetables</div>
+                    <div class="slider-item__text">Eggs &amp; Dairy</div>
                   </div>
                   <button class="slider-item__btn"> Shop Now</button>
                 </div>
           </div>
         </div>
       </div>
-    </slider>
+    </div>
     <div class="container">
       <h2 class="subtitle"> <span>Shop bye </span>
-        <p class="categ">Categories</p>
+        <p class="subtitle">Categories</p>
       </h2>
       <section class="categories"><a class="category-block" href="">  <img class="category-block__img" src="./assets/imgs/apple.png" alt="logo">
                 <p class="category-block__text">Vegetables &amp; Fruits</p></a><a class="category-block" href="">  <img class="category-block__img" src="./assets/imgs/shopping.png" alt="logo">
@@ -81,13 +127,13 @@
                 <div class="products-item__top">   
                   <div class="products-item__pacent">15%Off</div><img class="top__img" src="./assets/imgs/like.png" alt="like">
                 </div>
-                <div class="middle">    <img src="./assets/imgs/persik.png" alt=""></div>
+                <div class="products-item__middle">    <img src="./assets/imgs/persik.png" alt=""></div>
                 <div class="products-item__text">   
                   <p class="products-item__text-one">Available(in stock)</p>
                   <p class="products-item__text-sec">Fresh organic apricot</p>
                 </div>
                 <div class="products-item__price">$12<span>$15</span></div>
-                <div class="products-item__btm"> 
+                <div class="products-item__btn"> 
                   <div class="products-item__left"><img class="products-item__minus" src="./assets/imgs/minus.png" alt="minus">
                     <p class="products-item_one">1 </p><img class="products-item__plus" src="./assets/imgs/plus.png" alt="plus">
                   </div><img class="products-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
@@ -97,13 +143,13 @@
                 <div class="products-item__top">   
                   <div class="products-item__pacent">15%Off</div><img class="top__img" src="./assets/imgs/like.png" alt="like">
                 </div>
-                <div class="middle">    <img src="./assets/imgs/cucumber.png" alt=""></div>
+                <div class="products-item__middle">    <img src="./assets/imgs/cucumber.png" alt=""></div>
                 <div class="products-item__text">   
                   <p class="products-item__text-one">Available(in stock)</p>
                   <p class="products-item__text-sec">Cucumber</p>
                 </div>
                 <div class="products-item__price">$12<span>$15</span></div>
-                <div class="products-item__btm"> 
+                <div class="products-item__btn"> 
                   <div class="products-item__left"><img class="products-item__minus" src="./assets/imgs/minus.png" alt="minus">
                     <p class="products-item_one">1 </p><img class="products-item__plus" src="./assets/imgs/plus.png" alt="plus">
                   </div><img class="products-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
@@ -113,13 +159,13 @@
                 <div class="products-item__top">   
                   <div class="products-item__pacent">15%Off</div><img class="top__img" src="./assets/imgs/like.png" alt="like">
                 </div>
-                <div class="middle">    <img src="./assets/imgs/nuts.png" alt=""></div>
+                <div class="products-item__middle">    <img src="./assets/imgs/nuts.png" alt=""></div>
                 <div class="products-item__text">   
                   <p class="products-item__text-one">Available(in stock)</p>
                   <p class="products-item__text-sec">Hazelnuts filbert nut</p>
                 </div>
                 <div class="products-item__price">$12<span>$15</span></div>
-                <div class="products-item__btm"> 
+                <div class="products-item__btn"> 
                   <div class="products-item__left"><img class="products-item__minus" src="./assets/imgs/minus.png" alt="minus">
                     <p class="products-item_one">1 </p><img class="products-item__plus" src="./assets/imgs/plus.png" alt="plus">
                   </div><img class="products-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
@@ -129,13 +175,13 @@
                 <div class="products-item__top">   
                   <div class="products-item__pacent">15%Off</div><img class="top__img" src="./assets/imgs/like.png" alt="like">
                 </div>
-                <div class="middle">    <img src="./assets/imgs/broccoli.png" alt=""></div>
+                <div class="products-item__middle">    <img src="./assets/imgs/broccoli.png" alt=""></div>
                 <div class="products-item__text">   
                   <p class="products-item__text-one">Available(in stock)</p>
                   <p class="products-item__text-sec">Raw Broccoli</p>
                 </div>
                 <div class="products-item__price">$12<span>$15</span></div>
-                <div class="products-item__btm"> 
+                <div class="products-item__btn"> 
                   <div class="products-item__left"><img class="products-item__minus" src="./assets/imgs/minus.png" alt="minus">
                     <p class="products-item_one">1 </p><img class="products-item__plus" src="./assets/imgs/plus.png" alt="plus">
                   </div><img class="products-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
@@ -145,21 +191,264 @@
                 <div class="products-item__top">   
                   <div class="products-item__pacent">15%Off</div><img class="top__img" src="./assets/imgs/like.png" alt="like">
                 </div>
-                <div class="middle">    <img src="./assets/imgs/pear.png" alt=""></div>
+                <div class="products-item__middle">    <img src="./assets/imgs/pear.png" alt=""></div>
                 <div class="products-item__text">   
                   <p class="products-item__text-one">Available(in stock)</p>
                   <p class="products-item__text-sec">Organic quince</p>
                 </div>
                 <div class="products-item__price">$12<span>$15</span></div>
-                <div class="products-item__btm"> 
+                <div class="products-item__btn"> 
                   <div class="products-item__left"><img class="products-item__minus" src="./assets/imgs/minus.png" alt="minus">
                     <p class="products-item_one">1 </p><img class="products-item__plus" src="./assets/imgs/plus.png" alt="plus">
                   </div><img class="products-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
                 </div>
               </div>
       </section>
+      <h4>Offers</h4>
+      <div class="best">Values</div>
+      <section class="values">
+              <div class="values-item"><img src="./assets/imgs/avocado.png" alt="">
+                <div class="values-item__block"> 
+                  <p class="values-item__title">Daily Essentials</p>
+                  <p class="values-item__sub">20% Off Everyday</p>
+                  <button class="values-item__button">SHOP NOW</button>
+                </div>
+              </div>
+              <div class="values-item"><img src="./assets/imgs/orange.png" alt="">
+                <div class="values-item__block"> 
+                  <p class="values-item__title">GET UP TO</p>
+                  <p class="values-item__sub">30% OFF</p>
+                  <button class="values-item__button">SHOP NOW</button>
+                </div>
+              </div>
+              <div class="values-item"><img src="./assets/imgs/cherry.png" alt="">
+                <div class="values-item__block"> 
+                  <p class="values-item__title">Special Discount</p>
+                  <p class="values-item__sub">For All Items</p>
+                  <button class="values-item__button">SHOP NOW</button>
+                </div>
+              </div>
+      </section>
+      <div class="values__bottom"><img src="./assets/imgs/juc.png" alt=""></div>
+      <h5>For You</h5>
+      <div class="vege">For You Vegetables & Fruits Products</div>
+      <section class="vegefruit">   
+              <div class="vegefruit-item"> 
+                <div class="vegefruit-item__top">
+                  <div class="vegefruit-item__pacent"> 15%Off</div><img class="vegefruit-item__img" src="./assets/imgs/like.png" alt="like">
+                </div>
+                <div class="vegefruit-item__middle"><img src="./assets/imgs/apls.jpg" alt=""></div>
+                <div class="vegefruit-item__text"> 
+                  <p class="vegefruit-item__text-one">Available(in stock)</p>
+                  <p class="vegefruit-item__text-sec">Red apple</p>
+                </div>
+                <div class="vegefruit-item__price">$12<span>$15</span></div>
+                <div class="vegefruit-item__btn">
+                  <div class="vegefruit-item__left"><img class="vegefruit-item__minus" src="./assets/imgs/minus.png" alt="minus">
+                    <p class="vegefruit-item_one">1</p><img class="vegefruit-item__plus" src="./assets/imgs/plus.png" alt="plus">
+                  </div><img class="vegefruit-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
+                </div>
+              </div>
+              <div class="vegefruit-item"> 
+                <div class="vegefruit-item__top">
+                  <div class="vegefruit-item__pacent"> 15%Off</div><img class="vegefruit-item__img" src="./assets/imgs/like.png" alt="like">
+                </div>
+                <div class="vegefruit-item__middle"><img src="./assets/imgs/perec.jpg" alt=""></div>
+                <div class="vegefruit-item__text"> 
+                  <p class="vegefruit-item__text-one">Available(in stock)</p>
+                  <p class="vegefruit-item__text-sec">Capsicum-green</p>
+                </div>
+                <div class="vegefruit-item__price">$12<span>$15</span></div>
+                <div class="vegefruit-item__btn">
+                  <div class="vegefruit-item__left"><img class="vegefruit-item__minus" src="./assets/imgs/minus.png" alt="minus">
+                    <p class="vegefruit-item_one">1</p><img class="vegefruit-item__plus" src="./assets/imgs/plus.png" alt="plus">
+                  </div><img class="vegefruit-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
+                </div>
+              </div>
+              <div class="vegefruit-item"> 
+                <div class="vegefruit-item__top">
+                  <div class="vegefruit-item__pacent"> 15%Off</div><img class="vegefruit-item__img" src="./assets/imgs/like.png" alt="like">
+                </div>
+                <div class="vegefruit-item__middle"><img src="./assets/imgs/pear.jpg" alt=""></div>
+                <div class="vegefruit-item__text"> 
+                  <p class="vegefruit-item__text-one">Available(in stock)</p>
+                  <p class="vegefruit-item__text-sec">Pear fruit</p>
+                </div>
+                <div class="vegefruit-item__price">$12<span>$15</span></div>
+                <div class="vegefruit-item__btn">
+                  <div class="vegefruit-item__left"><img class="vegefruit-item__minus" src="./assets/imgs/minus.png" alt="minus">
+                    <p class="vegefruit-item_one">1</p><img class="vegefruit-item__plus" src="./assets/imgs/plus.png" alt="plus">
+                  </div><img class="vegefruit-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
+                </div>
+              </div>
+              <div class="vegefruit-item"> 
+                <div class="vegefruit-item__top">
+                  <div class="vegefruit-item__pacent"> 15%Off</div><img class="vegefruit-item__img" src="./assets/imgs/like.png" alt="like">
+                </div>
+                <div class="vegefruit-item__middle"><img src="./assets/imgs/blueberry.jpg" alt=""></div>
+                <div class="vegefruit-item__text"> 
+                  <p class="vegefruit-item__text-one">Available(in stock)</p>
+                  <p class="vegefruit-item__text-sec">Blueberry</p>
+                </div>
+                <div class="vegefruit-item__price">$12<span>$15</span></div>
+                <div class="vegefruit-item__btn">
+                  <div class="vegefruit-item__left"><img class="vegefruit-item__minus" src="./assets/imgs/minus.png" alt="minus">
+                    <p class="vegefruit-item_one">1</p><img class="vegefruit-item__plus" src="./assets/imgs/plus.png" alt="plus">
+                  </div><img class="vegefruit-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
+                </div>
+              </div>
+              <div class="vegefruit-item"> 
+                <div class="vegefruit-item__top">
+                  <div class="vegefruit-item__pacent"> 15%Off</div><img class="vegefruit-item__img" src="./assets/imgs/like.png" alt="like">
+                </div>
+                <div class="vegefruit-item__middle"><img src="./assets/imgs/raspberry.jpg" alt=""></div>
+                <div class="vegefruit-item__text"> 
+                  <p class="vegefruit-item__text-one">Available(in stock)</p>
+                  <p class="vegefruit-item__text-sec">Fresh raspberry</p>
+                </div>
+                <div class="vegefruit-item__price">$12<span>$15</span></div>
+                <div class="vegefruit-item__btn">
+                  <div class="vegefruit-item__left"><img class="vegefruit-item__minus" src="./assets/imgs/minus.png" alt="minus">
+                    <p class="vegefruit-item_one">1</p><img class="vegefruit-item__plus" src="./assets/imgs/plus.png" alt="plus">
+                  </div><img class="vegefruit-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
+                </div>
+              </div>
+      </section>
+      <h6>For You</h6>
+      <div class="new">Added new Products</div>
+      <section class="added">
+              <div class="added-item">
+                <div class="added-item__top"> 
+                  <div class="added-item__pacent"> 15%Off</div><img class="added-item__img" src="./assets/imgs/like.png" alt="like">
+                </div>
+                <div class="added-item__middle"><img src="./assets/imgs/imbir.jpg" alt=""></div>
+                <div class="added-item__text">
+                  <p class="added-item__text-one">Available(in stock)</p>
+                  <p class="added-item__text-sec">Ginger</p>
+                </div>
+                <div class="added-item__price">$12    <span>$15</span></div>
+                <div class="added-item__btn">
+                  <div class="added-item__left">     <img class="added-item__minus" src="./assets/imgs/minus.png" alt="minus">
+                    <p class="added-item_one">1</p><img class="added-item__plus" src="./assets/imgs/plus.png" alt="plus">
+                  </div><img class="products-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
+                </div>
+              </div>
+              <div class="added-item">
+                <div class="added-item__top"> 
+                  <div class="added-item__pacent"> 15%Off</div><img class="added-item__img" src="./assets/imgs/like.png" alt="like">
+                </div>
+                <div class="added-item__middle"><img src="./assets/imgs/inzhir.jpg" alt=""></div>
+                <div class="added-item__text">
+                  <p class="added-item__text-one">Available(in stock)</p>
+                  <p class="added-item__text-sec">Two fresh figs</p>
+                </div>
+                <div class="added-item__price">$12    <span>$15</span></div>
+                <div class="added-item__btn">
+                  <div class="added-item__left">     <img class="added-item__minus" src="./assets/imgs/minus.png" alt="minus">
+                    <p class="added-item_one">1</p><img class="added-item__plus" src="./assets/imgs/plus.png" alt="plus">
+                  </div><img class="products-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
+                </div>
+              </div>
+              <div class="added-item">
+                <div class="added-item__top"> 
+                  <div class="added-item__pacent"> 15%Off</div><img class="added-item__img" src="./assets/imgs/like.png" alt="like">
+                </div>
+                <div class="added-item__middle"><img src="./assets/imgs/srawb.jpg" alt=""></div>
+                <div class="added-item__text">
+                  <p class="added-item__text-one">Available(in stock)</p>
+                  <p class="added-item__text-sec">Strawberry</p>
+                </div>
+                <div class="added-item__price">$12    <span>$15</span></div>
+                <div class="added-item__btn">
+                  <div class="added-item__left">     <img class="added-item__minus" src="./assets/imgs/minus.png" alt="minus">
+                    <p class="added-item_one">1</p><img class="added-item__plus" src="./assets/imgs/plus.png" alt="plus">
+                  </div><img class="products-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
+                </div>
+              </div>
+              <div class="added-item">
+                <div class="added-item__top"> 
+                  <div class="added-item__pacent"> 15%Off</div><img class="added-item__img" src="./assets/imgs/like.png" alt="like">
+                </div>
+                <div class="added-item__middle"><img src="./assets/imgs/eggplant.jpg" alt=""></div>
+                <div class="added-item__text">
+                  <p class="added-item__text-one">Available(in stock)</p>
+                  <p class="added-item__text-sec">Eggplant</p>
+                </div>
+                <div class="added-item__price">$12    <span>$15</span></div>
+                <div class="added-item__btn">
+                  <div class="added-item__left">     <img class="added-item__minus" src="./assets/imgs/minus.png" alt="minus">
+                    <p class="added-item_one">1</p><img class="added-item__plus" src="./assets/imgs/plus.png" alt="plus">
+                  </div><img class="products-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
+                </div>
+              </div>
+              <div class="added-item">
+                <div class="added-item__top"> 
+                  <div class="added-item__pacent"> 15%Off</div><img class="added-item__img" src="./assets/imgs/like.png" alt="like">
+                </div>
+                <div class="added-item__middle"><img src="./assets/imgs/egg.jpg" alt=""></div>
+                <div class="added-item__text">
+                  <p class="added-item__text-one">Available(in stock)</p>
+                  <p class="added-item__text-sec">Egg</p>
+                </div>
+                <div class="added-item__price">$12    <span>$15</span></div>
+                <div class="added-item__btn">
+                  <div class="added-item__left">     <img class="added-item__minus" src="./assets/imgs/minus.png" alt="minus">
+                    <p class="added-item_one">1</p><img class="added-item__plus" src="./assets/imgs/plus.png" alt="plus">
+                  </div><img class="products-item__korzina" src="./assets/imgs/korzina.png" alt="korzin">
+                </div>
+              </div>
+      </section>
     </div>
+    <footer class="footer"> 
+      <div class="footer__container container">
+        <div class="footer__row"> 
+          <div class="footer__contact">  <img src="./assets/imgs/footer.png" alt="logo">
+            <div class="footer__address">
+              <p> Addressspan : 60-49 Road 11378 New York</p>
+              <p>Addressspan Phone: +65 11.188.888</p>
+              <p>Email: hello@colorlib.com</p>
+            </div>
+          </div>
+          <div class="footer__use">
+            <ul class="footer__list">    
+              <li> <a href="#">Useful link</a></li>
+              <li><a href="#">About Us</a></li>
+              <li> <a href="#">About Our Shop</a></li>
+              <li> <a href="#">Delivery infomation</a></li>
+              <li> <a href="#">Privacy Policy</a></li>
+              <li> <a href="#">Our Sitemap</a></li>
+            </ul>
+          </div>
+          <div class="footer__home">
+            <ul class="footer__list-sec"> 
+              <li> <a href="#">HOME</a></li>
+              <li><a href="#">Product</a></li>
+              <li> <a href="#">Contact</a></li>
+              <li> <a href="#">STORES</a></li>
+            </ul>
+          </div>
+          <div class="footer__download">  
+            <p class="footer__title">Download App</p>
+            <button class="footer__app"> <img src="./assets/imgs/app.svg" alt=""></button>
+            <button class="footer__app"> <img src="./assets/imgs/google.svg" alt=""></button>
+            <div class="footer__subtitle">Sign Up fapp.svgr Our Newsletter</div>
+            <form class="footer__form" action="#">
+              <input class="footer__input" type="text" placeholder="enter email address">
+              <button class="footer__button">SUBSCRIBE</button>
+            </form>
+            <div class="footer__text">Payment Method</div>
+            <ul class="footer__icon">    
+              <li> <a href="#"><img src="./assets/imgs/Visa.jpg" alt=""></a></li>
+              <li> <a href="#"><img src="./assets/imgs/MasterCard.jpg" alt=""></a></li>
+              <li> <a href="#"><img src="./assets/imgs/Maestro.jpg" alt=""></a></li>
+              <li> <a href="#"><img src="./assets/imgs/Cirrus.jpg" alt=""></a></li>
+              <li> <a href="#"><img src="./assets/imgs/AmericanEx.jpg" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="./assets/js/vendors.min.js"></script>
-    <script src="./assets/js/app.js">    </script>
+    <script src="./assets/js/app.js"></script>
   </body>
 </html>

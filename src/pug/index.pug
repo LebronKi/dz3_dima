@@ -1,6 +1,8 @@
 doctype html
 html(lang="en")
     head
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Martel+Sans:wght@900&family=Rubik+Wet+Paint&family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&family=Rubik+Wet+Paint&family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
@@ -12,9 +14,16 @@ html(lang="en")
         link(rel="stylesheet", href="./assets/css/app.css")
         
     body
+        include ./components/header.pug
+        include ./components/menu.pug
+        include ./components/select.pug
         include ./components/slider.pug
         .container
             include ./components/categories.pug
             include ./components/products.pug
+            include ./components/values.pug
+            include ./components/top.pug
+            include ./components/added.pug
+        include ./components/footer.pug
         script(src="./assets/js/vendors.min.js")
-        script(src="./assets/js/app.js")     
+        script(src="./assets/js/app.js")

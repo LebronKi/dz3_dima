@@ -1,0 +1,129 @@
+.footer{
+    font-family: Inter;
+    background: #191919;
+}
+.footer__container{
+
+    background: #191919;
+    
+}
+.footer__row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color:#fff;
+    padding: 62px 0 0 0;
+}
+.footer__address{
+ margin: 40px 0 0 0;
+ font-weight: 400;
+ font-size: 14px;
+ p{
+     margin: 0 0 10px 0;
+ }
+}
+.footer__list {
+     a{
+        color: #fff;
+        text-decoration: none;
+     }
+     a:hover{
+        color: aqua;
+        font-weight: 900;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    li{
+        
+        margin: 0 0 10px 0;
+    }
+    li:first-child{
+        font-weight: 900;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+}
+.footer__list-sec{
+    margin: 25px 0 0 0;
+    a{
+        color: #fff;
+        text-decoration: none;
+     }
+     li{
+         text-transform: uppercase;
+        font-size: 14px;
+        margin: 0 0 13px 0;
+    }
+     a:hover{
+        color: aqua;
+        font-size: 16px;
+    }
+}
+.footer__title{
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0 0 21px 0;
+}
+.footer__app{
+    margin: 0 0 40px 0;
+    border-radius: 12px;
+    &:active{
+        position: relative;
+        top: 2px;
+    }
+}
+.footer__subtitle{
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+.footer__form{
+    margin: 0 0 40px 0;
+}
+.footer__input{
+    color: #757575;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 21px 60px;
+}
+.footer__button{  
+    color: #fff;  
+    font-weight: 800;
+    font-size: 14px;
+    margin: 0 0 0 -3px;
+    background: #7FAD39;
+    padding: 21px 40px;
+    border:none;
+    &:active{
+    position: relative;
+    top: 2px;
+    }
+}
+.footer__text{
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+.footer__icon {
+    display: flex;
+    li{
+        margin: 0 10px 0 0;
+    }
+}    
+@media (min-width:320px) and (max-width:768px){
+    .footer__row{
+        display: block;
+        text-align: center;
+    } 
+    .footer__icon{
+        justify-content: center;
+    }
+}
+@media (min-width:769px) and (max-width:928px){
+    .footer__download{
+       margin: 20px 0 0 0;
+    }
+    .footer__icon{
+        justify-content: center;
+    }
+}

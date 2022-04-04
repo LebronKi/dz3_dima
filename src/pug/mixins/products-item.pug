@@ -1,16 +1,16 @@
-mixin products-item(img, textsec)
+mixin products-item(img, text)
     .products-item   
         .products-item__top    
             .products-item__pacent 15%Off
             img(src="./assets/imgs/like.png", alt="like").top__img
-        .middle     
+        .products-item__middle     
             img(src=img, alt="")
         .products-item__text    
             p.products-item__text-one Available(in stock)
-            p.products-item__text-sec=textsec 
+            p.products-item__text-sec=text 
         .products-item__price $12
             span $15
-        .products-item__btm 
+        .products-item__btn 
             .products-item__left
                 img(src="./assets/imgs/minus.png", alt="minus").products-item__minus
                 p.products-item_one 1 
